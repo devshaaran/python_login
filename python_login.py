@@ -1,4 +1,4 @@
-import requests                        #immports the reqd libs
+import requests                        #imports the reqd libs
 
 with requests.Session() as c:
     url = 'http://phc.prontonetworks.com/cgi-bin/authlogin?URI=http://www.google.co.in/'  #use the target url , url given in here was my target url(GDG)
